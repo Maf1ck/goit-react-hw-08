@@ -1,0 +1,30 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: #1976d2;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #333;
+  margin: 30px 0 20px;
+}
+
+.loading {
+  text-align: center;
+  color: #666;
+  margin: 20px 0;
+}
+
+.error {
+  text-align: center;
+  color: #d32f2f;
+  margin: 20px 0;
+}
