@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import { register } from "../../redux/auth/operations";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import css from "./RegisterForm.module.css";
+import css from "./RegistrationForm.module.css";
 
 const validationSchema = Yup.object({
   name: Yup.string()
@@ -16,7 +16,7 @@ const validationSchema = Yup.object({
     .required("Password is required"),
 });
 
-export const RegisterForm = () => {
+export const RegistrationForm = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = (values, { resetForm }) => {
